@@ -127,7 +127,14 @@ Duration time - ( 09.12.2020 -  23.12.2020 )\
 Deliverables:  We will add hosting and necessary APIs  for the website to run perfectly.\
 **Phase -5**<br/>
 Duration time - After 23.12.2020\
-Deliverables:  We will present our complete Writer’s Hub website
+Deliverables:  We will present our complete Writer’s Hub website.
+
+***Collaboration Plan***
+The entire project has been divided into four people. The schedule of our working has been given below. 
+
+![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/Collaboration%20plan.png)
+
+
 
 ***Project Schedule***
 

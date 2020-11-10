@@ -129,6 +129,11 @@ Deliverables:  We will add hosting and necessary APIs  for the website to run pe
 Duration time - After 23.12.2020\
 Deliverables:  We will present our complete Writer’s Hub website
 
+***Project Schedule***
+
+Checkpoint 1,2,3,4, 5 will take a total of 9 weeks from the day of start. 
+
+![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/Project%20Schedule.jpg)
 
 
 ***Appendix***<br/>

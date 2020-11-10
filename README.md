@@ -131,7 +131,7 @@ Deliverables:  We will present our complete Writer’s Hub website
 
 
 
-***Appendix***
+***Appendix***<br/>
 **Contact information**<br/>
 
 Contact Person Name: Nazia Tabassum Toma<br/>

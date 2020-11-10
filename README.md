@@ -115,10 +115,10 @@ e. *Payment gateway:*
 Development methodology will adopt agile methodology. And the schedule of the Writers Hub website  is given below.   
 **Phase 1**<br/>
 Duration time - ( 4.11.2020 -  11.11.2020 )\
-Deliverables: We will deliver our proposal for the website. This will also contain the use case diagram and interface diagram of the project.
+Deliverables: We will deliver our proposal for the website. This will also contain the use case diagram and interface diagram of the project.\
 **Phase 2**<br/>
 Duration time - ( 11.11.2020 -  25.11.2020 )\
-Deliverables:  We will make our accessible login/sign up , logout page, homepage, admin and writer dashboard, writer Profile, article and payment page for our website. We will use HTML,CSS, JavaScript, Bootstrap for the front end.
+Deliverables:  We will make our accessible login/sign up , logout page, homepage, admin and writer dashboard, writer Profile, article and payment page for our website. We will use HTML,CSS, JavaScript, Bootstrap for the front end.\
 **Phase 3**<br/>
 Duration time - ( 25.11.2020 -  9.12.2020 )\
 Deliverables:  In this duration we will set the interaction of PHP and Database. We will also add session initiation.\
@@ -128,6 +128,28 @@ Deliverables:  We will add hosting and necessary APIs  for the website to run pe
 **Phase -5**<br/>
 Duration time - After 23.12.2020\
 Deliverables:  We will present our complete Writer’s Hub website
+
+
+
+***Appendix***
+**Contact information**<br/>
+
+Contact Person Name: Nazia Tabassum Toma<br/>
+Email: nazia.tabassum@northsouth.edu<br/>
+Mobile: +8801749070460<br/>
+
+Contact Person Name: Jarin Tasnim Oyeshi<br/>
+Email: jarin.oyeshi@northsouth.edu<br/>
+Mobile: +8801822770077<br/>
+
+Contact Person Name: Hafizur Rahaman<br/>
+Email:hafizur.rahaman@northsouth.edu<br/>
+Mobile: +8801624543351<br/>
+
+Contact Person Name: Mir Sadia Afrin<br/>
+Email: sadia.afrin17@northsouth.edu<br/>
+Mobile: +8801632025170<br/>
+
 
 
 

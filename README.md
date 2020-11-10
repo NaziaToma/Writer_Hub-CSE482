@@ -72,27 +72,27 @@ A total of 8 page-templates in plan (as of November 11, 2020)
 5. Writer dashboard
 6. Article Page
 7. Card payment gateway page
-8. Writer Profile <br/>
+8. Writer Profile 
 ***Back end development*** <br/>
-1. *Account Creating, Password Recover:*
+a. *Account Creating, Password Recover:*
 - Sign up form
 - Login
 - Facebook login (Phase 2)
 - Google login (Phase 2)
 - Forgot Password
-- MySQL Database
+- MySQL Database\
 
-2. *Profile Management:*
-- Writers’ Profile
+b. *Profile Management:*
+- Writers’ Profile\
 
-3. *Searching facility:*
-- Category based
+c. *Searching facility:*
+- Category based\
       
-4. *Dashboard:*
+d. *Dashboard:*
 - Admin dashboard
-- Writer dashboard 
+- Writer dashboard \
 
-5. *Payment gateway:* 
+e. *Payment gateway:* 
 - Payment using VISA Card or Mastercard
 
 

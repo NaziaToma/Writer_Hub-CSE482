@@ -55,6 +55,49 @@ Mr. Humayun is a programmer. Recently he has started a YouTube channel. He is lo
 Central DB will receive requests from users who want to see articles on the website.They can find articles from categories. There will be a user sign up page where new users can create their profile and those information will be stored in the database. If anyone gives the wrong password then login error will be shown. Existing users can post articles & modify existing posts. Everything will be stored in the database. Users can also leave their comments on the articles. 
 ![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/system%20architecture.jpg)
 
+For the frontend, we will be using HTML, CSS, JavaScript, and Bootstrap. Bootstrap’s responsive CSS adjusts to phones, tablets, and desktops.  It also gives a more premium user interface and smoother experience.
+
+![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/logo1.jpg)
+
+Credential information will use a MySQL DB & PHP will be used as the backend of the website.
+
+![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/logo2.jpg)
+
+***Front-end plan***
+A total of 8 page-templates in plan (as of November 11, 2020)
+1. Homepage
+2. Sign up page
+3. Login page
+4. Admin dashboard
+5. Writer dashboard
+6. Article Page
+7. Card payment gateway page
+8. Writer Profile
+***Back end development***
+1. Account Creating, Password Recover:
+- Sign up form
+- Login
+- Facebook login (Phase 2)
+- Google login (Phase 2)
+- Forgot Password
+- MySQL Database
+
+2. Profile Management:
+- Writers’ Profile
+
+3. Searching facility:
+- Category based
+      
+4. Dashboard:
+- Admin dashboard
+- Writer dashboard 
+
+5. Payment gateway 
+- Payment using VISA Card or Mastercard
+
+
+
+
 
 
 

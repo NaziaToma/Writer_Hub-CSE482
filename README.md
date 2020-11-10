@@ -36,7 +36,7 @@ Mr. Humayun writes articles on Facebook. He is looking for a platform where he c
 
 - Add, edit, delete new writings.
 
-**Use Case 4:**\
+**Use Case 4:**
 
 Mr. Humayun is a programmer. Recently he has started a YouTube channel. He is looking for a writing platform where he can write tech related articles & share it with viewers for better understanding. He will- 
 
@@ -48,6 +48,12 @@ Mr. Humayun is a programmer. Recently he has started a YouTube channel. He is lo
 
 
 ![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/final.png)
+
+***Solution Description***
+
+**Architecture**
+Central DB will receive requests from users who want to see articles on the website.They can find articles from categories. There will be a user sign up page where new users can create their profile and those information will be stored in the database. If anyone gives the wrong password then login error will be shown. Existing users can post articles & modify existing posts. Everything will be stored in the database. Users can also leave their comments on the articles. 
+![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/system%20architecture.jpg)
 
 
 

@@ -45,7 +45,7 @@ Mr. Humayun is a programmer. Recently he has started a YouTube channel. He is lo
 - Select technology category & post his article here.
 
 ***Use Case Diagram:***
-![alt text](new.jpg)
+[use case diagram](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/final.png)
 
 
 

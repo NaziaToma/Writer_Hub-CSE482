@@ -129,7 +129,7 @@ Deliverables:  We will add hosting and necessary APIs  for the website to run pe
 Duration time - After 23.12.2020\
 Deliverables:  We will present our complete Writer’s Hub website.
 
-***Collaboration Plan***
+***Collaboration Plan***<br/>
 The entire project has been divided into four people. The schedule of our working has been given below. 
 
 ![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/Collaboration%20plan.png)

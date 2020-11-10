@@ -148,20 +148,18 @@ Checkpoint 1,2,3,4, 5 will take a total of 9 weeks from the day of start.
 
 Contact Person Name: Nazia Tabassum Toma<br/>
 Email: nazia.tabassum@northsouth.edu<br/>
-Mobile: +8801749070460<br/>
+
 
 Contact Person Name: Jarin Tasnim Oyeshi<br/>
 Email: jarin.oyeshi@northsouth.edu<br/>
-Mobile: +8801822770077<br/>
+
 
 Contact Person Name: Hafizur Rahaman<br/>
 Email:hafizur.rahaman@northsouth.edu<br/>
-Mobile: +8801624543351<br/>
+
 
 Contact Person Name: Mir Sadia Afrin<br/>
 Email: sadia.afrin17@northsouth.edu<br/>
-Mobile: +8801632025170<br/>
-
 
 
 

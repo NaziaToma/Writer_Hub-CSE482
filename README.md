@@ -82,17 +82,17 @@ a. *Account Creating, Password Recover:*
 - Facebook login (Phase 2)
 - Google login (Phase 2)
 - Forgot Password
-- MySQL Database\
+- MySQL Database
 
 b. *Profile Management:*
-- Writers’ Profile\
+- Writers’ Profile
 
 c. *Searching facility:*
-- Category based\
+- Category based
       
 d. *Dashboard:*
 - Admin dashboard
-- Writer dashboard \
+- Writer dashboard 
 
 e. *Payment gateway:* 
 - Payment using VISA Card or Mastercard

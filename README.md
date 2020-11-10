@@ -63,7 +63,7 @@ Credential information will use a MySQL DB & PHP will be used as the backend of 
 
 ![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/logo2.jpg)
 
-***Front-end plan***
+***Front-end plan***<br/>
 A total of 8 page-templates in plan (as of November 11, 2020)
 1. Homepage
 2. Sign up page
@@ -72,9 +72,9 @@ A total of 8 page-templates in plan (as of November 11, 2020)
 5. Writer dashboard
 6. Article Page
 7. Card payment gateway page
-8. Writer Profile
-***Back end development***
-1. Account Creating, Password Recover:
+8. Writer Profile <br/>
+***Back end development*** <br/>
+1. *Account Creating, Password Recover:*
 - Sign up form
 - Login
 - Facebook login (Phase 2)
@@ -82,17 +82,17 @@ A total of 8 page-templates in plan (as of November 11, 2020)
 - Forgot Password
 - MySQL Database
 
-2. Profile Management:
+2. *Profile Management:*
 - Writers’ Profile
 
-3. Searching facility:
+3. *Searching facility:*
 - Category based
       
-4. Dashboard:
+4. *Dashboard:*
 - Admin dashboard
 - Writer dashboard 
 
-5. Payment gateway 
+5. *Payment gateway:* 
 - Payment using VISA Card or Mastercard
 
 

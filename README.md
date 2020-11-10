@@ -115,16 +115,16 @@ e. *Payment gateway:*
 Development methodology will adopt agile methodology. And the schedule of the Writers Hub website  is given below.   
 **Phase 1**
 - Duration time - ( 4.11.2020 -  11.11.2020 )\
-- Deliverables: We will deliver our proposal for the website. This will also contain the use case diagram and interface diagram of the project.
+- Deliverables: We will deliver our proposal for the website. This will also contain the use case diagram and interface diagram of the project.<br/>
 **Phase 2**
 - Duration time - ( 11.11.2020 -  25.11.2020 )\
-- Deliverables:  We will make our accessible login/sign up , logout page, homepage, admin and writer dashboard, writer Profile, article and payment page for our website. We will use HTML,CSS, JavaScript, Bootstrap for the front end. 
+- Deliverables:  We will make our accessible login/sign up , logout page, homepage, admin and writer dashboard, writer Profile, article and payment page for our website. We will use HTML,CSS, JavaScript, Bootstrap for the front end. <br/>
 **Phase 3**
 - Duration time - ( 25.11.2020 -  9.12.2020 )\
-- Deliverables:  In this duration we will set the interaction of PHP and Database. We will also add session initiation. 
+- Deliverables:  In this duration we will set the interaction of PHP and Database. We will also add session initiation. <br/>
 **Phase 4**
 - Duration time - ( 09.12.2020 -  23.12.2020 )\
-- Deliverables:  We will add hosting and necessary APIs  for the website to run perfectly.
+- Deliverables:  We will add hosting and necessary APIs  for the website to run perfectly.<br/>
 **Phase -5**
 - Duration time - After 23.12.2020\
 - Deliverables:  We will present our complete Writer’s Hub website

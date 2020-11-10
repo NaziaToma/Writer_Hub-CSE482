@@ -1,4 +1,4 @@
-# Proposal for Blogging Platform Development
+# Proposal for Writing Platform Development
 ### Project name: Writer’s Hub 
 #### Group: 04
 
@@ -17,7 +17,7 @@ Starting from social media to blog websites, people write a lot daily about thei
 Our website has so much similarity to those platforms. People can write anything they want, on any topic. The way it is better that, writers’ hub is going to be very much user friendly. It is very important that the site connects to the people and so that this has a better UI and UX Design and users can easily become used to this. There will be easy to use features. Writers can buy and sell their writings; for that, there will be a premium option.
 Thus, our vision is to make things easier to connect to the people and reach them by their writings. It has a big opportunity to show their talents. And this site will ensure that.
 
-##User Story
+***User Story***
 
 **Use Case 1:**\
 Mr. Humayun is a writer. He used to write story books but nowadays with the advancement of technology he is thinking about publishing his writings on an online platform.
@@ -44,6 +44,8 @@ Mr. Humayun is a programmer. Recently he has started a YouTube channel. He is lo
 
 - Select technology category & post his article here.
 
+***Use Case Diagram:***
+![alt text](new.jpg)
 
 
 

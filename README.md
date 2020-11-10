@@ -73,7 +73,9 @@ A total of 8 page-templates in plan (as of November 11, 2020)
 6. Article Page
 7. Card payment gateway page
 8. Writer Profile 
+
 ***Back end development*** <br/>
+
 a. *Account Creating, Password Recover:*
 - Sign up form
 - Login

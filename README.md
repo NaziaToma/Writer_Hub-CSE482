@@ -21,26 +21,26 @@ Thus, our vision is to make things easier to connect to the people and reach the
 
 **Use Case 1:**\
 Mr. Humayun is a writer. He used to write story books but nowadays with the advancement of technology he is thinking about publishing his writings on an online platform.
-- He will create an account on Writer's Hub website. He will post his stories on the website & also make his stories premium for earning money. \
+- He will create an account on Writer's Hub website. He will post his stories on the website & also make his stories premium for earning money. 
 
 **Use Case 2:**\
-Mr. Humayun loves to read poems & fiction.He is looking for a good online platform for reading free poems & fictions. \
+Mr. Humayun loves to read poems & fiction.He is looking for a good online platform for reading free poems & fictions. 
 
-- Search categories in Writer’s Hub site. He will find writings according to his taste.\
-- He can also read premium writings after paying for that content.\
+- Search categories in Writer’s Hub site. He will find writings according to his taste.
+- He can also read premium writings after paying for that content.
 
 **Use Case 3:**\
-Mr. Humayun writes articles on Facebook. He is looking for a platform where he can post writings and organize them. He will-\
+Mr. Humayun writes articles on Facebook. He is looking for a platform where he can post writings and organize them. He will-
 
-- Post in Writer’s Hub site.\ 
+- Post in Writer’s Hub site.
 
-- Add, edit, delete new writings.\
+- Add, edit, delete new writings.
 
 **Use Case 4:**\
 
-Mr. Humayun is a programmer. Recently he has started a YouTube channel. He is looking for a writing platform where he can write tech related articles & share it with viewers for better understanding. He will- \
+Mr. Humayun is a programmer. Recently he has started a YouTube channel. He is looking for a writing platform where he can write tech related articles & share it with viewers for better understanding. He will- 
 
-- Create a profile on Writer’s Hub site.\
+- Create a profile on Writer’s Hub site.
 
 - Select technology category & post his article here.
 

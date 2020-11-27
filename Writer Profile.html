@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css"  />
+	<script src="https://kit.fontawesome.com/a690a1cf62.js" crossorigin="anonymous"></script>
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Josefin+Sans:wght@500&family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
+
+	<!-- Custom Styling -->
+    <link rel="stylesheet" href="css/writer profile.css">
+
+	<title>Homepage</title>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<h1 class="logo-text">
+				<span><i class="fa fa-pen"></i></span> Writers'<span>Hub</span></h1>
+		</div>
+		<i class="fa fa-bars menu-toggle"></i>
+		<ul class="nav">
+			<li>
+				<a href="#">
+					<i class="fa fa-search"></i>
+			    </a>
+
+				<div class="section search">
+					<form action="index.html" method="post">
+						<input type="text" name="search-term" class="text-input" placeholder="Search...">
+					</form>
+				</div>
+
+		    </li>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="#">About</a></li>
+			
+			<li>
+				<a href="#">
+					<i class="fa fa-user"></i>
+				</a>
+				<ul>
+					<li><a href="Writer Profile.html" class="profile">Profile</a></li>
+					<li><a href="dashboard.html">Dashboard</a></li>
+			        <li><a href="home1.html" class="logout">Logout</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+	</header>
+
+	<!--Page Wrapper -->
+	
+
+		<!-- Content -->
+		<div class="content clearfix">
+
+			<div class="profile">
+				<img src="images/profile.jpg" alt="" class="post-image">
+				<div class="profile-preview" >
+					<h2>Nazia Tabassum </h1>
+					<p class="preview-text">
+						I am a current undergrad student of North South University, pursuing a major in Computer Science & Engineering. Firmly interested in Data Science, Time forecasting methods.In my free time I enjoy reading books, specially self growth and business books.
+						At the end of the day I aspire to be the happiest , the most successful and best version of myself.  
+						&nbsp;
+					<p><i class="fa fa-envelope-open" aria-hidden="true"> nazia.tabassum@northsouth.edu</i></p>
+					</p>
+					
+				</div>
+			</div>
+
+			<!-- Main Content -->
+			<div class="main-content">
+
+				<h1 class="recent-post-title">Recent Posts</h1>
+
+				<div class="post">
+					<img src="images/T.png" alt="" class="post-image">
+					<div class="post-preview">
+						<h2><a href="single.html">Time series: Autoregressive Model</a></h1>
+						<i class="far fa-user"> Nazia Tabassum</i>
+						&nbsp;
+						<i class="far fa-calendar"> November 16, 2020</i>
+						&nbsp;
+						<i class="fa fa-superpowers" aria-hidden="true"> Science </i>
+						<p class="preview-text1">
+							Time series analysis is something like the dark horse in field of data science.Basically, it is a process of analyzing time series data, which is based on observations on data points, measured typically over successive times. These data can be collected at a regular time interval such as daily,weekly,monthly or annually.It is performed to extract meaningful data statistics and characteristics.
+						</p>
+						<a href="articles_view.html" class="btn read-more">Read more</a>
+					</div>
+				</div>
+
+		</div>
+
+		<div class="sidebar">
+
+			<div class="section topics">
+				<h3 class="section-title">Discover</h3>
+				<ul>
+					<li><a href="#">Poem</a></li>
+					<li><a href="#">Story</a></li>
+					<li><a href="#">Fiction</a></li>
+					<li><a href="#">Science</a></li>
+					<li><a href="#">Philosophy</a></li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	
+	
+	<!-- Footer -->
+<footer>
+	<div class="footer">
+
+		<div class="quick-links">
+
+
+		<ul>
+	
+			<li class="quick-items"><a href="#">Help</a></li>
+			<li class="quick-items"><a href="#">About</a></li>
+			<li class="quick-items"><a href="#">Privacy&Terms</a></li>
+			<li class="quick-items"><a href="#">Contact</a></li>
+
+		</ul>
+
+		</div>
+
+		<div class="footer-bottom">
+			&copy; project | CSE482 Lab Project
+		</div>
+
+	</div>
+</footer>
+
+    <!-- JQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+    <!-- Slick Carousel -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Custom Script -->
+    <script src="js/script.js"></script>
+</body>
+</html>

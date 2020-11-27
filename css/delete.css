@@ -1,0 +1,456 @@
+
+*
+{
+	box-sizing: border-box;
+}
+
+html,
+body
+{
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	background-color: #F5F5F5;
+	font-family: 'Josefin Sans', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Lora', serif;
+	color: #000000;
+	margin: 5px;
+}
+
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.btn {
+	padding: .5rem 1rem;
+	background: #6495ED;
+	color: white;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+}
+
+.btn:hover {
+	color: white !important;
+	background: #4682B4;
+}
+
+.text-input {
+	padding: .7rem 1rem;
+	display: block;
+	width: 100%;
+	border-radius: 5px;
+	border:1px solid #e0e0e0;
+	outline: none;
+	color: #444;
+	line-height: 1.5rem;
+	font-family: 'Josefin', serif;
+}
+
+header
+{
+	background: #535D6B;
+	height: 66px;
+}
+
+header *
+{
+	color: white;
+}
+
+header .logo
+{
+	float: left;
+	height: inherit;
+	margin-left: 2em;
+}
+
+header .logo-text
+{
+	margin: 12px;
+	font-family: 'Comfortaa', serif;
+}
+
+header .logo-text span
+{
+	color: lightblue;
+}
+
+header .logo-text span i
+{
+	color: lightblue;
+}
+
+header ul 
+{
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	height: inherit;
+}
+
+header ul li
+{
+	float: left;
+	position: relative;
+}
+
+header ul li div
+{
+	position: absolute;
+	top: 66px;
+	right: 0px;
+	width: 180px;
+	display: none;
+	z-index: 88888;
+}
+
+header ul li:hover div
+{
+	display: block;
+}
+
+header ul li ul
+{
+	position: absolute;
+	top: 66px;
+	right: 0px;
+	width: 180px;
+	display: none;
+	z-index: 88888;
+}
+
+header ul li:hover ul
+{
+	display: block;
+}
+
+header ul li ul li
+{
+	width: 100%;
+}
+
+header ul li ul li a
+{
+	padding: 10px;
+	background: #535D6B;
+	color: white;
+}
+
+header ul li ul li a.logout
+{
+	color: #F08080;
+}
+
+header ul li ul li a:hover
+{
+	background: #000000;
+}
+
+header ul li a
+{
+	display: block;
+	padding: 21px;
+	font-size: 1.1em;
+	text-decoration: none;
+}
+
+header ul li a:hover
+{
+	background: #000000;
+	height: 66px;
+	transition: 0.5s;
+}
+
+header .menu-toggle
+{
+	display: none;
+}
+/*header ends*/
+
+
+  
+ h2.header_position{
+  
+	text-align: center;
+	
+	top: -300px;
+    color: black;
+    font-size: 50px;
+    
+    font-family: "Times New Roman", Times, serif;
+ } 
+  
+  .delete {
+    color: red;
+  }
+
+  .wrapper .sidebar{
+    
+    background: #2F323A;
+    position: absolute;
+    top: 65px;
+    width: 20%;
+    height: 140%;
+    transition: 0.3s;
+    transition-property: width;
+    overflow-y: auto;
+    padding-left: 0;
+  }
+  
+  .wrapper .sidebar .sidebar-menu{
+    overflow: hidden;
+  }
+ 
+ 
+  
+  .wrapper .sidebar .sidebar-menu .item{
+	width: 250px;
+	text-align: center;
+    overflow: hidden;
+  }
+  
+  .wrapper .sidebar .sidebar-menu .item .menu-btn{
+    display: block;
+    color: #fff;
+    position: relative;
+    padding: 25px 15px;
+    font-size: 20px;
+    transition: 0.3s;
+    transition-property: color;
+    border-bottom: 1px solid white;
+  }
+  
+  .wrapper .sidebar .sidebar-menu .item .menu-btn:hover{
+      background-color: white;
+      color: black;
+  }
+  
+  .wrapper .sidebar .sidebar-menu .item .menu-btn i{
+    margin-right: 20px;
+  }
+  
+ 
+  .wrapper .main-container{
+    margin-top: 70px;
+    margin-left: 250px;
+    padding: 15px;
+    background-size: auto;
+    height: 815px;
+    transition: 0.3s;
+  }
+  .wrapper.collapse .sidebar .sidebar-menu .item .menu-btn{
+    font-size: 50px;
+  }
+
+  
+  .wrapper.collapse .main-container{
+    width: calc(100% - 70px);
+    margin-left: 70px;
+  }
+
+  .wrapper .main-container .header_position{
+	  text-align: center;
+	  margin-left: 70px;
+  }
+
+
+.main-container .rec{
+	width: 100%;
+}
+
+.admin-wrapper .admin-content .button-group {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .admin-wrapper .admin-content .button-group .btn {
+    width: unset;
+  }
+  
+  .admin-wrapper .admin-content a {
+    text-decoration: unset;
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    font-size: 25px;
+    background: white;
+    margin-left: 100px;
+    margin-top: 15px;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #d3d3d3;
+  }
+  .delete {
+    color: red;
+  }
+
+
+
+
+
+
+
+  /* FOOTER */
+.footer
+{
+	background: #535D6B;
+	color: #d3d3d3;
+	height: 150px;
+	position: relative;
+}
+
+.footer .quick-links {
+	display: flex;
+	width: 560px;
+	height: 70px;
+	margin: auto;
+}
+
+.footer .quick-links ul {
+	display: flex;
+}
+
+.footer .quick-items {
+	list-style: none;
+}
+
+.footer .quick-items a {
+	text-decoration: none;
+	padding: 0px 25px;
+	font-size: 17px;
+	color: white;
+}
+
+.footer .quick-items a:hover
+{
+	color: lightblue;
+}
+
+/*
+footer div ul li
+{
+	position: absolute;
+	top: 66px;
+	right: 0px;
+	width: 180px;
+	display: none;
+	z-index: 88888;
+}
+*/
+
+/*
+.footer .footer-content {
+	border: 1px solid red;
+	height: 50px;
+	display: flex;
+}
+*/
+
+/*.footer .footer-content .footer-section
+{
+	flex: 1;
+	border: 1px solid white;
+}
+*/
+
+
+.footer-bottom {
+	background: #2A2A2A;
+	text-decoration-color: white;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding-top: 10px;
+}
+
+  
+  /* MEDIA QUERIES */
+
+@media only screen and (max-width: 748px)
+{
+	header {
+		position: relative;
+	}
+
+	header ul {
+		width: 100%;
+		background: #535D6B;
+		max-height: 0px;
+		overflow: hidden;
+	}
+
+	.showing {
+		max-height: 100em;
+	}
+
+	header ul li {
+		width: 50%;
+	}
+
+	/*header ul li div
+	{
+		display: block;
+	}*/
+
+	header ul li ul {
+		position: static;
+		display: block;
+		width: 100%;
+		background: inherit;
+	}
+
+	header ul li ul li a
+    {
+	    padding: 10px;
+	    background: #535D6B;
+	    color: white;
+	    padding-left: 50px;
+    }
+
+    header ul li ul li a.logout
+    {
+	    color: #F08080;
+    }
+
+    header .menu-toggle
+    {
+    	display: block;
+    	position: absolute;
+    	right: 20px;
+    	top: 20px;
+    	font-size: 1.5em;
+    }
+
+    header .logo
+    {
+    	margin-left: .5em;
+    }
+
+}
+  
+                             

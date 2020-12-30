@@ -1,7 +1,7 @@
-<?php
-	session_start();
-	
+<?php 
+   
     include('createcookie.php')
+    
 ?>
 
 <!DOCTYPE html>
@@ -330,7 +330,71 @@
 		<!-- Content -->
 
 	</div>
-	<!-- // Page Wrapper -->
+	<!--google api-->
+	<?php
+
+
+include('config.php');
+
+$login_button = '';
+
+
+if(isset($_GET["code"]))
+{
+
+ $token = $google_client->fetchAccessTokenWithAuthCode($_GET["code"]);
+
+
+ if(!isset($token['error']))
+ {
+ 
+  $google_client->setAccessToken($token['access_token']);
+
+ 
+  $_SESSION['access_token'] = $token['access_token'];
+
+
+  $google_service = new Google_Service_Oauth2($google_client);
+
+ 
+  $data = $google_service->userinfo->get();
+
+ 
+  if(!empty($data['given_name']))
+  {
+   $_SESSION['user_first_name'] = $data['given_name'];
+  }
+
+  if(!empty($data['family_name']))
+  {
+   $_SESSION['user_last_name'] = $data['family_name'];
+  }
+
+  if(!empty($data['email']))
+  {
+   $_SESSION['user_email_address'] = $data['email'];
+  }
+
+  if(!empty($data['gender']))
+  {
+   $_SESSION['user_gender'] = $data['gender'];
+  }
+
+  if(!empty($data['picture']))
+  {
+   $_SESSION['user_image'] = $data['picture'];
+  }
+ }
+}
+
+
+if(!isset($_SESSION['access_token']))
+{
+
+ $login_button = '<a href="'.$google_client->createAuthUrl().'" class="google btn" > <i class="fa fa-google fa-fw" ></i> Signup with Google+ </a>';
+}
+
+?>
 
 	<div class="bg-model">
 		<div class="model-content">
@@ -349,9 +413,17 @@
 					  <a href="#" class="twitter btn">
 						<i class="fa fa-twitter fa-fw"></i> Login with Twitter
 					  </a>
-					  <a href="#" class="google btn">
-						<i class="fa fa-google fa-fw"></i> Login with Google+
-					  </a>
+				  <?php
+							if($login_button == '')
+							{
+								echo "<script> window.location.assign('home.php'); </script>";
+								echo '<h3><a href="logout.php">Logout</h3></div>';
+							}
+							else
+							{
+								echo '<div align="center">'.$login_button . '</div>';
+							}
+							?>
 					</div>
 			  
 					<div class="col">

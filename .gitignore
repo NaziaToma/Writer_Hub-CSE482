@@ -43,4 +43,4 @@ vendor/psr/http-client/LICENSE
 *.txt
 *.cnf
 
-*.php
+vendor/*

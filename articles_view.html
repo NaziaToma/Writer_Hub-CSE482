@@ -1,0 +1,159 @@
+<!DOCTYPE >
+<html>
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Writers' Hub</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css"  />
+<script src="https://kit.fontawesome.com/a690a1cf62.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Josefin+Sans:wght@500&family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<h1 class="logo-text">
+				<span><i class="fa fa-pen"></i></span> Writers'<span>Hub</span></h1>
+		</div>
+		<i class="fa fa-bars menu-toggle"></i>
+		<ul class="nav">
+			<li>
+				<a href="#">
+					<i class="fa fa-search"></i>
+			    </a>
+
+				<div class="section search">
+					<form action="index.html" method="post">
+						<input type="text" name="search-term" class="text-input" placeholder="Search...">
+					</form>
+				</div>
+
+		    </li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li>
+				<a href="#">
+					<i class="fa fa-bell"></i>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class="fa fa-user"></i>
+				</a>
+				<ul>
+					<li><a href="#">Dashboard</a></li>
+			        <li><a href="#" class="logout">Logout</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Catagories</a>
+				<ul>
+					<li><a href="#">Science</a></li>
+			        <li><a href="#">Story</a></li>
+			        <li><a href="#">Poem</a></li>
+			        <li><a href="#">Fiction</a></li>
+				</ul>
+			</li>
+		</ul>
+	</header>
+<!-- end #header -->
+<div id="wrapper">
+	<div id="page">
+		<div id="content" style="padding-top: 10px; width: 100%;">
+			<div class="post">
+				<h2 class="title"><a href="#">Time series: Autoregressive Model</a></h2>
+				<p class="meta"><span class="date">November 16, 2020</span><span class="posted">Posted by <a href="#">Nazia Tabassum Toma</a></span></p>
+				<div style="clear: both;">&nbsp;</div>
+				<div class="entry">
+					<p>Time series analysis is something like the dark horse in field of data science.Basically, it is a process of analyzing time series data, which is based on observations on data points, measured typically over successive times. These data can be collected at a regular time interval such as daily,weekly,monthly or annually.It is performed to extract meaningful data statistics and characteristics.</p>
+
+					<p><b>What are the uses of Time Series Analysis?</b></p>
+
+					<p>Time series analysis is one of the most applied data science technique in business, earthquake prediction, supply chain management, weather prediction etc & you always need to retrain your models to generate a precised prediction.So yes, time series analysis is always going to stay as a trending topic in the field of data science.</p>
+
+					<p><b>A linear regression model</b></p>
+
+					<p>Among different types of time series forecasting models, today we will look into a simple model which is Autoregressive Model, also known as AR model.</p>
+
+					<p><b>What is AR Model?</b></p>
+
+					<p>AR model is a linear model which can predict something based on past values of the same thing.It is quite natural and powerful way to predict something based on a certain pattern.</p>
+
+					<p>Autoregressive models are based on the idea that current value of the series, Xt , can be explained as a linear combination of p past values, Xt−1, Xt−2, . . . , Xt−p, together with a random error in the same series. AR(p), is of the form,</p>
+
+					<p><b>Xt = φ1Xt−1 + φ2Xt−2 + · · · + φpXt−p + wt</b></p>
+
+					<p>where Xt is stationary (whose statistical properties such as mean, autocorrelation etc are all constant over time) and φ1, φ2, . . . , φp (φp can not be zero) are model parameters. The hyperparameter p represents the length of the “direct look back” in the series and wt is the white noise.</p>
+
+					<p><b>Think it simple!</b></p>
+
+					<p>Here, Xt is the value of the variable X, for which we want our prediction at the time t (current time).So, Xt depends on Xt-1,the previous time period.Again, Xt-1 depends on Xt-2 and it goes down to Xt-p. This is how we predict the value of Xt based on previous values of it.</p>
+
+					<p>For an example, stock price for today will depend on the stock price of yesterday & will continue according to autoregression process & based on those values we will be able to do some precised predictions.</p>
+
+					
+				</div>
+
+				<div class="block-border">
+				    <div class="block-header">
+				        <h1>Post Reviews</h1>
+				    </div>
+				    <form  class="block-content form" action="" method="post">
+				        <div class="_100">
+				            <p><label for="textfield">Name </label><input id="textfield" name="comments_author_name" class="required" type="text" value="" /></p>
+				            <input type="hidden" name="blog_id" value="">
+				        </div>
+				        <div class="_100">
+				            <p><label for="textfield">Email </label><input id="textfield" name="comments_author_email" class="required" type="text" value="" /></p>
+				        </div>
+				        <div class="_100">
+				            <p><label for="textarea"> Review </label><textarea id="textarea" name="comments_description" class="required" rows="5" cols="40"></textarea></p>
+				        </div>
+				        <div class="clear"></div>
+				        <div class="block-actions">
+				            <input type="submit" class="button" value="Submit Review">
+				        </div>
+				    </form>
+				</div>
+			</div>
+			<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #content -->
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page -->
+</div>
+
+<footer>
+	<div class="footer">
+
+		<div class="quick-links">
+
+
+		<ul>
+	
+			<li class="quick-items"><a href="#">Help</a></li>
+			<li class="quick-items"><a href="#">About</a></li>
+			<li class="quick-items"><a href="#">Privacy&Terms</a></li>
+			<li class="quick-items"><a href="#">Contact</a></li>
+
+		</ul>
+
+		</div>
+
+		<div class="footer-bottom">
+			&copy; project | CSE482 Lab Project
+		</div>
+
+	</div>
+</footer>
+
+<!-- end #footer -->
+</body>
+</html>

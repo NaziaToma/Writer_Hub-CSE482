@@ -5,5 +5,5 @@ $google_client->revokeToken();
 session_start();
 
 session_destroy();
-header('location:home1.php');
+header('location:index.php');
 ?>

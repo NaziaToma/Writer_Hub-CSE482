@@ -7,10 +7,13 @@ html,
 body
 {
 	height: 100%;
+	margin: 0;
 	padding: 0px;
-	margin: 0px;
+	
 	background-color: #F5F5F5;
 	font-family: 'Josefin Sans', serif;
+	
+	overflow-x: hidden;
 }
 
 h1,
@@ -115,7 +118,7 @@ header ul li div
 	position: absolute;
 	top: 66px;
 	right: 0px;
-	width: 180px;
+	width: 100%;
 	display: none;
 	z-index: 88888;
 }
@@ -130,7 +133,7 @@ header ul li ul
 	position: absolute;
 	top: 66px;
 	right: 0px;
-	width: 180px;
+	width: 100%;
 	display: none;
 	z-index: 88888;
 }
@@ -150,6 +153,9 @@ header ul li ul li a
 	padding: 10px;
 	background: #535D6B;
 	color: white;
+	float: right;
+	width: 100px;
+	
 }
 
 header ul li ul li a.logout
@@ -221,7 +227,7 @@ header .menu-toggle
 
 
 .post-slider .post-wrapper{
-	width: 84%;
+	width: 100%;
 	height: 350px;
 	margin: 0px auto;
 	overflow: hidden;
@@ -258,13 +264,15 @@ header .menu-toggle
 /* CONTENT */
 
 .content {
-	width: 960px;
+	width: 90%;
 	margin: 30px auto 30px;
+	
 }
 
 .content .main-content {
 	width: 70%;
 	float: left;
+	
 }
 
 .content .main-content .post {
@@ -296,6 +304,8 @@ header .menu-toggle
 	width: 40%;
 	height: 100%;
 	float: left;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
 }
 
 .content .main-content .post .post-preview {
@@ -311,7 +321,8 @@ header .menu-toggle
 .content .sidebar {
 	width: 30%;
 	float: left;
-	height: 300px;
+	
+	
 }
 
 .content .sidebar .section {
@@ -526,6 +537,7 @@ input[type=submit]:hover {
 	color: #d3d3d3;
 	height: 150px;
 	position: relative;
+	
 }
 
 .footer .quick-links {
@@ -537,10 +549,12 @@ input[type=submit]:hover {
 
 .footer .quick-links ul {
 	display: flex;
+
 }
 
 .footer .quick-items {
 	list-style: none;
+	
 }
 
 .footer .quick-items a {
@@ -548,6 +562,8 @@ input[type=submit]:hover {
 	padding: 0px 25px;
 	font-size: 17px;
 	color: white;
+	transition: all .25s;
+
 }
 
 .footer .quick-items a:hover
@@ -572,7 +588,36 @@ input[type=submit]:hover {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 1286px)
+@media only screen and (max-width: 934px){
+	.content {
+		width: 100%;
+		
+	}
+	.content .main-content {
+		width: 100%;
+		padding: 10px;
+		
+	}
+	.content .main-content .post {
+		width: 100%;
+		
+		
+		
+	}
+	.content .sidebar {
+		width: 100%;
+		padding: 10px;
+		
+	}
+	.content .sidebar .section.search {
+		margin-top: 30px;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 750px)
 {
 	header {
 		position: relative;
@@ -598,7 +643,7 @@ input[type=submit]:hover {
 		position: static;
 		display: block;
 		width: 100%;
-		background: inherit;
+		
 	}
 
 	header ul li ul li a
@@ -645,9 +690,12 @@ input[type=submit]:hover {
 		  width: 100%;
 	  }
 
-	  .footer .quick-links{
-		  width: 100%;
-	  }
+	  
+	  .footer .quick-links ul {
+		
+		text-align: center;
+		position: absolute;
+	}
 
 	  .footer .footer-bottom{
 		  width: 100%;
@@ -667,3 +715,140 @@ input[type=submit]:hover {
 
 
 }
+
+@media only screen and (max-width: 600px){
+	.content .main-content .post {
+		
+		height: auto;
+		
+	}
+	.content .main-content .post .post-image {
+		width: 100%;
+		
+	}
+
+	.content .main-content .post .post-preview {
+		width: 100%;
+		
+	}
+	.content .main-content .post .read-more {
+		position: static;
+		display: block;
+		width: 100%;
+		text-align: center;
+		
+	}
+	
+}
+
+@media only screen and (max-width: 360px){
+	html,
+body
+{
+	
+	width: 100%;
+	
+}
+	
+	
+	.content {
+		width: 100%;
+		
+	}
+	.content .main-content {
+		width: 100%;
+		padding: 10px;
+		
+	}
+	.content .main-content .post {
+		width: 100%;
+		
+		
+		
+	}
+/*	.footer .quick-links ul {
+		width: 100%;
+		text-align: center;
+		position: relative;
+	}
+*/
+
+}
+
+
+/*
+@media only screen and (max-width: 1320px){
+  .post-preview{
+    width: fit-content;
+  }
+  
+
+  .preview-text{
+    width: fit-content;
+    visibility: hidden;
+  }
+*/
+  @media only screen and (max-width: 990px) {
+
+
+
+  .footer {
+    width:100%;
+    height:200px;
+    text-align:center;
+  }
+
+  .footer-bottom {
+    width:100%;
+    height:50px;
+  }
+}
+
+
+  @media only screen and (max-width: 550px) {
+
+
+
+  .footer {
+    width:100%;
+    height:200px;
+    text-align:center;
+  }
+
+  .footer .quick-links ul {
+	display: block;
+	padding-left: 170px;
+}
+
+
+  .footer-bottom {
+    width:100%;
+    height:50px;
+  }
+}
+
+
+
+@media only screen and (max-width: 350px) {
+
+
+  .footer {
+    width:100%;
+    height:200px;
+    text-align:center;
+  }
+
+    .footer .quick-links ul {
+	display: block;
+		padding-left: 100px;
+}
+
+
+  .footer-bottom {
+    width:100%;
+    height:50px;
+  }
+
+
+}
+

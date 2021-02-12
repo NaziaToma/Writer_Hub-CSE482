@@ -292,9 +292,10 @@ header .menu-toggle
     width: 80%;
     border-collapse: collapse;
     font-size: 25px;
-    background: white;
+    background: black;
     margin-left: 100px;
-    margin-top: 15px;
+	margin-top: 15px;
+	
   }
   
   th, td {

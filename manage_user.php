@@ -69,7 +69,7 @@
                 <li class="item">
                     <a href="manage_user.php" class="menu-btn"></i>Manage User</a>
                     
-                    <a href="manage_post.html" class="menu-btn"></i>Manage Post</a>
+                    <a href="manage_post.php" class="menu-btn"></i>Manage Post</a>
                     
                 </li>
              
@@ -97,9 +97,9 @@
                     <tbody>
                     <?php
     
-                        include 'dbcon.php';
+                        include 'connection.php';
                             $selectquery = "select * from registration";
-                            $query = mysqli_query($con, $selectquery);
+                            $query = mysqli_query($conn, $selectquery);
 
                             $nums = mysqli_num_rows($query);
 
@@ -108,11 +108,11 @@
 
                             <tr class="rec">
                                 
-                                <td> <?php echo $res['id']; ?> </td>     
+                                <td> <?php echo $res['ID']; ?> </td>     
                                 <td> <?php echo $res['username']; ?> </td>   
                                 <td>Role</td>                                    
-                                <td style="text-align: center"><a href="edit.php?id=<?php echo $res['id']; ?>" data-toggle="tooltip" data-placement="bottom" title="Update"> <i class="fa fa-edit" aria-hidden="true"></i> </a> </td> 
-                                <td style="text-align: center"><a href="delete.php?id=<?php echo $res['id']; ?>" data-toggle="tooltip" data-placement="bottom" title="Delete"> <i class="fa fa-trash" aria-hidden="true"></i> </a> </td>                          
+                                <td style="text-align: center"><a href="edit.php?id=<?php echo $res['ID']; ?>" data-toggle="tooltip" data-placement="bottom" title="Update"> <i class="fa fa-edit" aria-hidden="true"></i> </a> </td> 
+                                <td style="text-align: center"><a href="delete.php?id=<?php echo $res['ID']; ?>" data-toggle="tooltip" data-placement="bottom" title="Delete"> <i class="fa fa-trash" aria-hidden="true"></i> </a> </td>                          
                             </tr>
 
                             <?php

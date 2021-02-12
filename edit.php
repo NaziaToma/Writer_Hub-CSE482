@@ -89,11 +89,11 @@
             <h2>Edit User</h2>
 
             <?php 
-    include 'dbcon.php';
+    include 'connection.php';
 
     $id=$_GET['id'];
     $showquery = "select * from registration where id= {$id}";
-    $showdata= mysqli_query($con,$showquery);
+    $showdata= mysqli_query($conn,$showquery);
 
     $arrdata = mysqli_fetch_array($showdata);
 
@@ -107,7 +107,7 @@
         $query = "update registration set id=$id, username='$username' where id=$idupdate";
 
         
-        $iquery = mysqli_query($con, $insertquery);
+        $iquery = mysqli_query($conn, $insertquery);
     }
 
 ?>
@@ -116,7 +116,7 @@
   
             <div class="input-group">
               <label class="lable">ID</label>
-              <input type="text-input" name="id" value="<?php echo $arrdata['id']; ?>" class="text-title">
+              <input type="text-input" name="ID" value="<?php echo $arrdata['ID']; ?>" class="text-title">
             </div>
 
             <div class="input-group">

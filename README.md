@@ -100,7 +100,13 @@ e. *Payment gateway:*
 
 ***Web View*** <br/>
 
-
+![alt text](https://github.com/NaziaToma/Writer_Hub-CSE482/blob/main/images/1.png)
+![alt text](https://github.com/NaziaToma/Writer_Hub-CSE482/blob/main/images/2.png)
+![alt text](https://github.com/NaziaToma/Writer_Hub-CSE482/blob/main/images/3.png)
+![alt text](https://github.com/NaziaToma/Writer_Hub-CSE482/blob/main/images/4.png)
+![alt text](https://github.com/NaziaToma/Writer_Hub-CSE482/blob/main/images/5.png)
+![alt text](https://github.com/NaziaToma/Writer_Hub-CSE482/blob/main/images/6.png)
+![alt text](https://github.com/NaziaToma/Writer_Hub-CSE482/blob/main/images/7.png)
 
 
 
@@ -115,10 +121,6 @@ Email: nazia.tabassum@northsouth.edu<br/>
 
 Contact Person Name: Jarin Tasnim Oyeshi<br/>
 Email: jarin.oyeshi@northsouth.edu<br/>
-
-
-Contact Person Name: Hafizur Rahaman<br/>
-Email:hafizur.rahaman@northsouth.edu<br/>
 
 
 Contact Person Name: Mir Sadia Afrin<br/>

@@ -107,6 +107,9 @@ e. *Payment gateway:*
 ![alt text](https://github.com/NaziaToma/Writer_Hub-CSE482/blob/main/images/5.png)
 ![alt text](https://github.com/NaziaToma/Writer_Hub-CSE482/blob/main/images/6.png)
 ![alt text](https://github.com/NaziaToma/Writer_Hub-CSE482/blob/main/images/7.png)
+![alt text](https://github.com/NaziaToma/Writer_Hub-CSE482/blob/main/images/8.png)
+![alt text](https://github.com/NaziaToma/Writer_Hub-CSE482/blob/main/images/9.png)
+![alt text](https://github.com/NaziaToma/Writer_Hub-CSE482/blob/main/images/10.png)
 
 
 

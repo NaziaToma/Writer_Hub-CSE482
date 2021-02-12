@@ -97,50 +97,13 @@ d. *Dashboard:*
 e. *Payment gateway:* 
 - Payment using VISA Card or Mastercard
 
-***Interface Design:***
 
-**Homepage**
-![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/1.PNG)
-![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/2.PNG)
-![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/3.PNG)
-
-**Article Page:**
-![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/4.PNG)
-![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/6.PNG)
-
-**Admin Dashboard:**
-![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/5.PNG)
-
-***Development Plan*** <br/>
-Development methodology will adopt agile methodology. And the schedule of the Writers Hub website  is given below.   
-**Phase 1**<br/>
-Duration time - ( 4.11.2020 -  11.11.2020 )\
-Deliverables: We will deliver our proposal for the website. This will also contain the use case diagram and interface diagram of the project.\
-**Phase 2**<br/>
-Duration time - ( 11.11.2020 -  25.11.2020 )\
-Deliverables:  We will make our accessible login/sign up , logout page, homepage, admin and writer dashboard, writer Profile, article and payment page for our website. We will use HTML,CSS, JavaScript, Bootstrap for the front end.\
-**Phase 3**<br/>
-Duration time - ( 25.11.2020 -  9.12.2020 )\
-Deliverables:  In this duration we will set the interaction of PHP and Database. We will also add session initiation.\
-**Phase 4**<br/>
-Duration time - ( 09.12.2020 -  23.12.2020 )\
-Deliverables:  We will add hosting and necessary APIs  for the website to run perfectly.\
-**Phase -5**<br/>
-Duration time - After 23.12.2020\
-Deliverables:  We will present our complete Writer’s Hub website.
-
-***Collaboration Plan***<br/>
-The entire project has been divided into four people. The schedule of our working has been given below. 
-
-![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/Collaboration%20plan.png)
+***Web View*** <br/>
 
 
 
-***Project Schedule***
 
-Checkpoint 1,2,3,4, 5 will take a total of 9 weeks from the day of start. 
 
-![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/Project%20Schedule.jpg)
 
 
 ***Appendix***<br/>

@@ -44,24 +44,19 @@ Mr. Humayun is a programmer. Recently he has started a YouTube channel. He is lo
 
 - Select technology category & post his article here.
 
-***Use Case Diagram:***
 
-
-![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/final.png)
 
 ***Solution Description***
 
 **Architecture**
 Central DB will receive requests from users who want to see articles on the website.They can find articles from categories. There will be a user sign up page where new users can create their profile and those information will be stored in the database. If anyone gives the wrong password then login error will be shown. Existing users can post articles & modify existing posts. Everything will be stored in the database. Users can also leave their comments on the articles. 
-![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/system%20architecture.jpg)
 
 For the frontend, we will be using HTML, CSS, JavaScript, and Bootstrap. Bootstrap’s responsive CSS adjusts to phones, tablets, and desktops.  It also gives a more premium user interface and smoother experience.
 
-![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/logo1.jpg)
 
 Credential information will use a MySQL DB & PHP will be used as the backend of the website.
 
-![alt text](https://raw.githubusercontent.com/NaziaToma/Writer_Hub-CSE482/main/Images/logo2.jpg)
+
 
 ***Front-end plan***<br/>
 A total of 8 page-templates in plan (as of November 11, 2020)
